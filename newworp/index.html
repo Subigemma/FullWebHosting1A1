@@ -1,0 +1,87 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="styles/styles.css">
+</head>
+<body>
+<img src="bfbg.jpg">
+<ul>
+  <li><a class="active" href="#home">Inicio</a></li>
+  <li><a href="#news">Foro</a></li>
+  <li><a href="#contact">Registrate</a></li>
+  <li><a href="#about">Información</a></li>
+</ul>
+<div class=marquee>
+<p>Gran libertad de rol</p>
+<p>El límite lo pone tu imaginación</p>
+</div>
+<div class="w3-content w3-section" style="max-width:500px;position:absolute; top:350; left:400">
+<img class="mySlides" src="car10.jpg">
+<img class="mySlides" src="car1.jpg">
+<img class="mySlides" src="car2.jpg">
+<img class="mySlides" src="car3.jpg">
+<img class="mySlides" src="car4.jpg">
+<img class="mySlides" src="car5.jpg">
+<img class="mySlides" src="car6.jpg">
+<img class="mySlides" src="car7.jpg">
+<img class="mySlides" src="car8.jpg">
+<img class="mySlides" src="car9.jpg">
+</div>
+<div class="myscroll" style="position:absolute; top:350; left:50">
+<h2>Nos presentamos<br> ¿Quienes somos?</h2>
+World of Roleplay nace a finales de la primavera de 2016, fruto de las inquietudes de un grupo de amantes del rol, en especial ambientado en World of Warcfrat. Asi que estamos todavia en fase beta del servidor.
+Por aquel entonces encontrábamos que hacia falta un servidor de rol en español con la expansion WoD.
+Asi que nos liamos la manta a la cabeza y, con ilusion y algún que otro skill técnico, montamos lo que ahora os ofrecemos como plataforma de rol.
+WORP está basado en el motor de juegos de código abierto Trinity Core, asi que lo que vereis en nuestro servidor es fruto de nuestra creatividad, intentamos escapar de la copia aunque, por supuesto, cada uno tenemos nuestras referencias.
+Pero lo mejor de todo es que queremos que WORP sea un servidor que se rija en primera instancia por los players y para los players, pretendemos que todo aquel que entre a formar parte de la comunidad se sienta tambien, en cierta medida, parte del staff.
+</div>
+<div style="position:absolute; width:350; height:100; top:750; left:550;">
+<h3 align=middle>¿Te interesa?</h3>
+<h2 align=middle>¿Quieres saber más?</h2>
+<a href="http://worldofroleplay.net/forum/index.php"><h1 align=middle>Visita nuestro foro</h1></a>
+</div>
+<div class="myscroll" style="position:absolute; top:750; left:50">
+<iframe style="border:none;width:300;height:700" src="http://82.223.34.196/rigtpane.php"></iframe>
+</div>
+
+<div class=mybanner style="position:absolute; top:100; left:450;">
+Rol al máximo nivel
+</div>
+<div style="position:absolute; top:350; left:950; width=250">
+<h3>NUESTRO STAFF</h3>
+<table cellpadding=2>
+<tr><td><b>Lady Sylvannas Brisaveloz</b><br><img src="foto1.jpg"></td><td>
+Administradora economica y social.<br> 
+Para estar muerta tiene un cuerpazo.
+</td></tr>
+</table>
+<hr>
+
+<table cellpadding=2>
+<tr><td><b>Reina Tiffin Ellerian Wryn</b><br><img src="foto2.jpg"></td><td>
+Administradora técnica y social.<br>
+Dicen que las piedras del camino enseñan el destino.
+</td></tr>
+</table>
+</div>
+
+
+
+<script>
+var slideIndex = 0;
+carousel();
+
+function carousel() 
+{
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none"; 
+    }
+    slideIndex++;
+    if (slideIndex > x.length) {slideIndex = 1} 
+    x[slideIndex-1].style.display = "block"; 
+    setTimeout(carousel, 5000); 
+}
+</script>	
+</body>
+</html>

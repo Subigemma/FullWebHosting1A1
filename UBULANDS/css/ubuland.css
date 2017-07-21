@@ -1,0 +1,127 @@
+.Presen {
+	cursor:pointer;
+}	
+.Subig {
+	cursor:pointer;
+	position:absolute; 
+	top:380; 
+	left:850; 
+}	
+.Undead {
+	cursor:pointer;
+	position:absolute; 
+	top:580; 
+	left:950; 
+}	
+.Gnome {
+	cursor:pointer;
+	position:absolute; 
+	top:520; 
+	left:720; 
+}	
+.Dwarf {
+	cursor:pointer;
+	position:absolute; 
+	top:500; 
+	left:200; 
+}	
+.Draco {
+	cursor:pointer;
+	position:absolute; 
+	top:150; 
+	left:870; 
+}	
+.divpres {
+	position:absolute; 
+	top:200; 
+	left:200; 
+	width:510;
+	height:270;
+	background-color:#CCFFCC;
+	background-image:url("../img/frame1.jpg");
+	color:#FFCCCC;
+}
+.Sistema{
+	position:absolute; 
+	top:150; 
+	left:300; 
+	width:700;
+	height:440;
+	background-color:#CCFFCC;
+	background-image:url("../img/frame3.jpg");
+	color:#FFCCCC;
+}
+.PartiPRE {
+	position:absolute; 
+	top:50; 
+	left:300; 
+	width:500;
+	height:120;
+	background-image:url("../img/myBanner2.gif");
+	color:#FFFFCC;
+	display:none;
+}
+.Parti {
+	position:absolute; 
+	top:150; 
+	left:300; 
+	width:600;
+	height:390;
+	background-color:#CCFFCC;
+	background-image:url("../img/frame2.jpg");
+	color:#FFCCCC;
+}
+.Mundo {
+	position:absolute; 
+	width:520;
+	height:540; 
+	background-color:#88AA88;
+	top:150; 
+	left:400;
+	color:#FFCCCC;
+}
+.Combat {
+	position:absolute; 
+	width:600;
+	height:420; 
+	background-color:#88AA88;
+	top:150; 
+	left:400;
+	background-image:url("../img/frame4.jpg");
+	color:#FFCCCC;
+}
+.Usuario {
+	position:absolute; 
+	width:520;
+	height:270; 
+	background-color:#88AA88;
+	top:250; 
+	left:400;
+	color:#FFCCCC;
+}
+.prebann {
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:15;
+	position:relative; 
+	top:10; 
+	text-align:center;
+}
+.mySlides {
+	margin: auto;
+	display:none;
+}
+pre {
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:15;
+	text-shadow: 0 0 3px #000000;
+}
+table {
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:15;
+	color:#00FF00;
+	text-shadow: 0 0 3px #000000;
+}
+body {
+    background-image: url("../img/wallp.jpg");
+    background-repeat: no-repeat;
+}

@@ -1,0 +1,31 @@
+<html>
+<head>
+<style>
+body {
+	background-image:url('c9.jpg');
+}
+.TabForo {
+	font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'sans-serif'; 
+	vertical-align:middle; 
+	color:#FFFFFF;
+	background-image:url('BarraMarron.jpg');
+	background-repeat: repeat-y;
+}
+</style>
+</head>
+<body>
+<table class=TabForo width=500 align=center> 
+<tr><td align=center>
+<img src='Capta.jpg'>
+</td>
+</tr>
+<tr>
+<td align=center style="font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'sans-serif'">
+En WoRP tenemos la ilusi&oacute;n de crear y sostener un servidor WoW basado en el motor Trinity core, manteniendo el nivel m&aacute;ximo de versi&oacute;n. Aprovechando asi las m&aacute;ximas ventajas en cuanto a gr&aacute;ficos y zonas que nos brinda la plataforma de software libre. Somos un grupo de amigos, aficionados al rol que disfrutamos montando todo tipo de situaciones comprometidas para nuestros personajes.</p>
+</td></tr>
+<tr><td align=center>
+<img src='warlords-of-draenor-520x260-twitter.jpg'>
+</td>
+</table>
+</body>
+</html>

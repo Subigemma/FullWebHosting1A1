@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>World of Roleplay</title>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="styles/styles.css">
+<script>
+var slideIndex = 0;
+carousel();
+
+function carousel() 
+{
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none"; 
+    }
+    slideIndex++;
+    if (slideIndex > x.length) {slideIndex = 1} 
+    x[slideIndex-1].style.display = "block"; 
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>		
+		
+		
+</head>
+<body>
+<div class="wrapper">
+	<h1>Marquee with CSS3 Animation</h1>
+	<h3>Move the text from the right to the left</h3>
+	<div class="marquee">
+		<p><a href="http://www.hongkiat.com/blog/wordpress-related-posts-without-plugins/">How to add WordPress Related Posts Without Plugins</a></p>
+		<p><a href="http://www.hongkiat.com/blog/automate-dropbox-files-with-actions/">Automate Your Dropbox Files With Actions</a></p>
+	</div>
+</div>
+<img class="mySlides" src="car1.jpg">
+<img class="mySlides" src="car2.jpg">
+<img class="mySlides" src="car3.jpg">
+</body>
+</html>

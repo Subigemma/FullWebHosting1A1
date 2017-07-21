@@ -1,0 +1,4 @@
+<frameset rows=245px,*>
+  <frame frameborder=0 src="bfbg.jpg">
+  <frame frameborder=0 src="main.html">
+</frameset> 

@@ -1,0 +1,9 @@
+<html>
+<body>
+<img src='bfbg.jpg'>
+<iframe width=268px height=900px frameborder=0 style='position:absolute; top:235; left:9' src="leftpane.php"></iframe>
+<iframe width=804px height=900px frameborder=0 style='position:absolute; top:235; left:277' src="centerpane.php"></iframe>
+<iframe width=268px height=900px frameborder=0 style='position:absolute; top:235; left:1081' src="thispane.php"></iframe>
+</body>
+</html>
+
